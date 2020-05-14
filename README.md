@@ -19,3 +19,7 @@ Other | Lombok, Log4J (SLF4J)
 - `model`: our models (as Java POJO's with Lombok); used in all modules
 - `server`: a REST-Service (SpringBoot) providing the link between the `database` and `UI`
 - `ui`: a UI in Swing; connects to the `server`
+
+## Other
+
+- Authentication via Bearer Token (OAuth)

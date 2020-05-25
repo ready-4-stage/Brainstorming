@@ -20,6 +20,14 @@ Other | Lombok, Log4J (SLF4J)
 - `server`: a REST-Service (SpringBoot) providing the link between the `database` and `UI`
 - `ui`: a UI in Swing; connects to the `server`
 
+#### Possible file structure:
+
+- `stage-database/`
+- `stage-model/`
+- `stage-server/`
+- `stage-ui/`
+- `pom.ml`
+
 ## Other
 
 - Authentication via Bearer Token (OAuth)
